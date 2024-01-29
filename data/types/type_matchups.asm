@@ -75,7 +75,7 @@ TypeEffects:
 	db ROCK,         BUG,          SUPER_EFFECTIVE
 	db ROCK,         ICE,          SUPER_EFFECTIVE
 	db GHOST,        NORMAL,       NO_EFFECT
-	db GHOST,        PSYCHIC_TYPE, NO_EFFECT
+	db GHOST,        PSYCHIC_TYPE, SUPER_EFFECTIVE
 	db FIRE,         DRAGON,       NOT_VERY_EFFECTIVE
 	db WATER,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ELECTRIC,     DRAGON,       NOT_VERY_EFFECTIVE
@@ -85,8 +85,6 @@ TypeEffects:
 	db DARK,         PSYCHIC_TYPE, SUPER_EFFECTIVE
 	db DARK,         GHOST,        SUPER_EFFECTIVE
 	db DARK,         DARK,         SUPER_EFFECTIVE
-	db DARK,         NORMAL,       NOT_VERY_EFFECTIVE
-	db NORMAL,       DARK,         SUPER_EFFECTIVE
 	db BUG,          DARK,         SUPER_EFFECTIVE
 	db PSYCHIC_TYPE, DARK,         NOT_VERY_EFFECTIVE
 	db GHOST,        DARK,         NOT_VERY_EFFECTIVE
