@@ -868,7 +868,7 @@ ParasectEvosMoves:
 
 PsyduckEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 22, WEIRDUCK
+	db EV_LEVEL, 33, GOLDUCK
 	db 0
 ; Learnset
 	db 12, TAIL_WHIP
@@ -2457,7 +2457,7 @@ BlastykeEvosMoves:
 
 MagnemiteEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 20, MAGNETITE
+	db EV_LEVEL, 30, MAGNETON
 	db 0
 ; Learnset
 	db 6, THUNDERSHOCK
