@@ -191,7 +191,8 @@
 	const DISARMING_VOICE ; b7
 	const NASTY_PLOT   ; b8
 	const UPPERCUT	   ; b9
-	const POWDER_SNOW	; b10
+	const POWDER_SNOW	; ba
+	const BUG_BITE     ; bb
 	const STRUGGLE     ; formerly a5, now c0
 DEF NUM_ATTACKS EQU const_value - 1
 

@@ -861,6 +861,7 @@ ParasectEvosMoves:
 	db 13, STUN_SPORE
 	db 20, LEECH_LIFE
 	db 30, SPORE
+	db 35, BUG_BITE
 	db 39, SLASH
 	db 48, GROWTH
 	db 57, SWORDS_DANCE ; Prototype
@@ -1110,9 +1111,10 @@ VenonatEvosMoves:
 	db 0
 ; Learnset
 	db 11, SUPERSONIC
+	db 15, LEECH_LIFE
 	db 19, CONFUSION
 	db 22, POISONPOWDER
-	db 27, LEECH_LIFE
+	db 27, BUG_BITE
 	db 30, STUN_SPORE
 	db 35, PSYBEAM
 	db 38, SLEEP_POWDER
@@ -1668,6 +1670,7 @@ ParasEvosMoves:
 	db 13, STUN_SPORE
 	db 20, LEECH_LIFE
 	db 27, SPORE
+	db 30, BUG_BITE
 	db 34, SLASH
 	db 41, GROWTH
 	db 48, SWORDS_DANCE
@@ -1783,8 +1786,9 @@ VenomothEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 15, LEECH_LIFE
 	db 22, POISONPOWDER
-	db 27, LEECH_LIFE
+	db 27, BUG_BITE
 	db 30, STUN_SPORE
 	db 38, PSYBEAM
 	db 43, SLEEP_POWDER
@@ -1858,6 +1862,7 @@ ButterfreeEvosMoves:
 	db 15, SLEEP_POWDER
 	db 18, SUPERSONIC
 	db 23, WHIRLWIND
+	db 26, BUG_BITE
 	db 28, GUST
 	db 34, PSYBEAM
 	db 40, MEGA_DRAIN ; Prototype
@@ -3043,6 +3048,7 @@ CarapthorEvosMoves:
 	db 20, DEFENSE_CURL
 	db 25, SWIFT
 	db 30, MEGA_PUNCH
+	db 32, BUG_BITE
 	db 35, SUBSTITUTE
 	db 40, SEISMIC_TOSS
 	db 45, TAKE_DOWN
